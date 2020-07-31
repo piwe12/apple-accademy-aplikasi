@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="586dp"
+        android:layout_height="529dp"
+        android:layout_marginBottom="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/background2_foreground" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-54dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                app:srcCompat="@mipmap/ikonnisulo_foreground" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="112dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:text="Nisulo"
+                android:textColor="#FFFDFD"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp"
+                android:text="Pilih Alat Musik Mu"
+                android:textColor="#F1EEEE"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tulisan_gitar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="260dp"
+                android:text="Guitar"
+                android:textColor="#FAFAFA"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tulisan_piano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="260dp"
+                android:text="Piano"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tulisan_biola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="260dp"
+                android:text="Biola"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tulisan_drum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="390dp"
+                android:text="Drum"
+                android:textColor="#FDFDFD"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/gitarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:background="#000000"
+                app:srcCompat="@mipmap/guitar" />
+
+            <ImageButton
+                android:id="@+id/pianoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="180dp"
+                android:background="#050505"
+                app:srcCompat="@mipmap/piano" />
+
+            <ImageButton
+                android:id="@+id/biolaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="180dp"
+                android:background="#000000"
+                app:srcCompat="@mipmap/biola" />
+
+            <ImageButton
+                android:id="@+id/drumButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="310dp"
+                android:background="#000000"
+                app:srcCompat="@mipmap/drum" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
